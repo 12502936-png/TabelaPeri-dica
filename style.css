@@ -1,0 +1,131 @@
+
+* {transition: scale 0.5s ease;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    
+    }
+    
+    body {background-color: coral;}
+    
+    
+    
+    table {       
+        
+    table-layout: fixed;      
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    
+    }
+    
+    .Tabela {
+        
+    padding: 10px;
+    border: solid;
+    align-items: auto;
+    align-self: auto;
+    vertical-align: middle;
+    
+    }
+    
+    div {height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    td {
+    
+      
+    text-align: left;
+    width: 100px;
+    height: 100%;
+     border-radius: 5%;
+    
+    }
+    
+    .Tabela:hover {scale: 1.5;}
+    
+    
+    
+    #H {background-color: aqua;}
+    
+    #semimetal{background-color:  rgb(7, 179, 113);}
+    
+    #naometal {background-color: rgb(255, 238, 0);}
+    
+    #halogênio {background-color: rgb(84, 160, 231);}
+    
+    #metalalcalino {background-color: rebeccapurple;
+    color: azure; 
+    border-color: black;}
+    
+    #metalalcalinoterroso {background-color: rgb(173, 94, 45);}
+    
+    #metaltransição {background-color: rgb(158, 158, 154);}
+    
+    #outro {background-color: rgb(14, 13, 13);
+        color: white;
+        border-color: black;}
+    
+    #lantanídeo { background-color: rgb(251, 255, 197); }
+    
+    #actnídeo { background-color: rgb(218, 219, 221); 
+        color: rgb(163, 53, 45);}
+    
+    #gasnobre{background-color: rgb(167, 136, 44);}
+    
+    
+    
+    
+    .legendah{
+        border-color: black;
+        background-color: aqua;}
+    
+    
+    .legendaalcalino{
+        border-color: black;
+        background-color: rebeccapurple;}
+    
+    .legendaalcalinoterroso{
+        border-color: black;
+        background-color:  rgb(173, 94, 45);}
+    
+    .legendatransição{
+        border-color: black;
+        background-color: rgb(158, 158, 154);}
+    
+    .legendasmetal{
+        border-color: black;
+        background-color:  rgb(7, 179, 113);}
+    
+    .legendanmetal{
+        border-color: black;
+        background-color: rgb(255, 238, 0);}
+    
+    .legendaoutrom{
+        border-color: rgb(124, 124, 124);
+        background-color:  rgb(0, 0, 0);}
+    
+    .legendagnobre{
+        border-color: black;
+        background-color: rgb(167, 136, 44);}
+    
+    .legendalantan{
+        border-color: black;
+        background-color: rgb(251, 255, 197);}
+    
+    .legendaacti{
+        border-color: rgb(163, 53, 45);
+        background-color: rgb(218, 219, 221);}
+    
+    .legendahalo{
+        border-color: rgb(0, 0, 0);
+        background-color:  rgb(84, 160, 231);}
+    
+    
+    
+    /*RowSpan = "2" table-layout: fixed;
